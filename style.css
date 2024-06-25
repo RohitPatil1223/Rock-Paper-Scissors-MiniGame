@@ -1,0 +1,73 @@
+body {
+    background: rgb(25, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    color: white ;
+    display: flex;
+    justify-content: center;
+}
+
+.gesture{
+    display: flex;
+    justify-content: center;
+}
+
+.gesture button img{
+   height: 50px; 
+}
+
+
+.gesture button {
+    height: 120px; 
+    width: 120px;
+    background-color: transparent;
+    border: 3px solid white;
+    margin: 15px;
+    border-radius: 60px;
+ }
+
+ .gesture button:hover  {
+   
+   background-color: transparent;
+   border: 3px solid rgb(239, 194, 12);
+   margin: 15px;
+   border-radius: 60px;
+}
+
+
+ .result-info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+ }
+
+ .button-reset{
+   height: 30px;
+   background-color: #ecd587;
+   border-radius: 5px;
+   border: 1px solid white;
+   font-weight: bold;
+}
+
+.button-reset:active{
+   height: 30px;
+   background-color: #f1ca4b;
+   border-radius: 5px;
+   border: 1px solid rgb(7, 6, 6);
+   font-weight: bold;
+}
+
+ .green-text{
+    color: chartreuse;
+ }
+
+ .orange-text{
+    color: rgb(229, 161, 16);
+ }
+
+ .red-text{
+    color: rgb(249, 6, 6);
+ }
